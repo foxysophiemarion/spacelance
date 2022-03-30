@@ -537,6 +537,7 @@ h6 {
       -ms-flex-direction: row;
           flex-direction: row;
   padding-top: 1.25rem;
+  gap: 2.5rem;
 }
 
 .menu-footer__link {
@@ -1238,6 +1239,11 @@ h6 {
           box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
   border-radius: 1.875rem;
   padding: 1.25rem;
+  -webkit-transition: -webkit-box-shadow 0.3s ease 0s;
+  transition: -webkit-box-shadow 0.3s ease 0s;
+  -o-transition: box-shadow 0.3s ease 0s;
+  transition: box-shadow 0.3s ease 0s;
+  transition: box-shadow 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
 }
 
 .column-price__logo {
@@ -1746,6 +1752,7 @@ h6 {
 
   .menu-footer__link:hover {
     text-decoration: underline;
+    color: #1e88e5;
   }
 
   .row-main-block__button:hover {
@@ -1756,6 +1763,11 @@ h6 {
   .search-main-block__button:hover {
     -webkit-box-shadow: 0px 0px 10px #1e88e5;
             box-shadow: 0px 0px 10px #1e88e5;
+  }
+
+  .column-price__body:hover {
+    -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
   }
 
   .column-price__link:hover {
